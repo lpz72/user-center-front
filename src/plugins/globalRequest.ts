@@ -14,7 +14,7 @@ import {stringify} from "querystring";
  */
 const request = extend({ //在原有的request基础上继承，再编写自己的逻辑
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://user-backend.projectlearn.site': undefined //可以指定每次请求的前缀，如域名、端口之类
+  prefix: process.env.NODE_ENV === 'production' ? 'http://user-backend.project-learn.site': undefined //可以指定每次请求的前缀，如域名、端口之类
   // requestType: 'form',
 });
 
